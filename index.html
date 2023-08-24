@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Electronica</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="CSS/Mystyle.css" /> 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light scrolling-navbar fixed-top" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#">Examen Electronica</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        ></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" aria-current="page"
+                >Home <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Tele">Telecomunicaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Anali">Analisis de nodos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Directa">Corriente alterna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#RLC">Circuitos RLC</a>
+            </li>
+            <!--<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>-->
+          </ul>
+        </div>
+      </nav>
+      <br />
+    </header>
+    <main>
+      <section class="container" id="Tele">
+        <div class="row pt-5">
+          <h1 class="pb-4">Telecomunicaciones</h1>
+          <h3>Que son?</h3>
+          <div class="col bg-info">
+            Se conforman por la transmision de informacion por medio de ondas electromagneticas y por medio de protocolos que permiten la tranferencia de 
+            la informacion de manera remota y a grandes distancias.
+            Parte muy importante de las telecomunicaciones son los protocolos que utilizan, como lo son:
+          </div>
+          </div>
+        <div class="row pt-4">
+          <div class="col bg-info">
+            <li>HTTP: de sus siglas en inglés: "Hypertext Transfer Protocol" o "Protocolo de transferencia de hipertexto", es el nombre de un protocolo el 
+              cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web,
+               y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada
+               por el elemento que recibirá los datos, normalmente un navegador Web.</li>
+            <li>TCP/Ip: TCP Protocolo de Control de Transmisión, por sus siglas en inglés Transmission Control Protocol, es protocolo de red que permite que dos anfitriones (hosts) se conecten e intercambien flujos de datos.
+              TCP garantiza la entrega de datos y paquetes (en-US) en el mismo orden en que se enviaron. Vint Cerf y Bob Kahn, científicos de DARPA por aquél entonces, diseñaron TCP en la década de los 70.
+              El rol de TCP es garantizar que los paquetes se entreguen de forma confiable y sin errores.</li>
+            <li>FTP: El File Transfer Protocol o Protocolo de transferencia de Archivos son las reglas que se establecen para la transmision de datos de manera segura desde un servidor hacia un cliente,
+               esto se da por medio de dos equipos, uno configurado como servidor y el otro como cliente</li>
+            <li>SMTP: El protocolo de transferencia simple de correo es un protocolo de TCP/Ip para el envio y almacenamiento de correo electronico, generalmente se usa con el protocolo POP3,
+               para almacenar los correos de manera local o el protocolo IMAP para un guardado de correo en la nube y tener acceso por medio de internet</li>
+          </div>
+        </div>
+        <div style="text-align: center;">
+          <img src="assets/images/Sin título.png" alt="no hubo">
+          <img src="assets/images/images.png" alt="nel">
+          <img src="assets/images/in título.png" alt="nop">
+        </div>
+
+        
+      </section>
+      <section class="container-fluid" id="Anali">
+        <div class="row pt-5">
+          <h1 class="pb-4">Analisis de nodos</h1>
+          <div class="col bg-primary">
+            Se conforma con la metodologia para resolver circuitos electronicos de una manera viable En el análisis de nodos se escribe una ecuación para cada nodo, 
+            con condición que la suma de esas corrientes sea igual a cero en cualquier instante, por lo que una carga Q nunca puede acumularse en un nodo. Estas corrientes se escriben en términos de las tensiones de cada nodo del circuito. 
+            Así, en cada relación se debe dar la corriente en función de la tensión que es nuestra incógnita, por la conductancia.
+          </div>
+        </div>
+        <div class="row pt-4">
+          <div class="col bg-primary" style="text-align: center">
+            <img src="assets/images/Que-es-un-nodo-300x158.jpg" alt="No hay" height="450px" width="800px">
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col bg-primary">
+            <li>Localice los segmentos de cable conectados al circuito. Estos serán los nodos que se usarán para el método.</li>
+            <li>Seleccione un nodo de referencia (polo a tierra). Se puede elegir cualquier nodo ya que esto no afecta para nada los cálculos; pero elegir el nodo con más conexiones podría simplificar el análisis.</li>
+            <li>Identifique los nodos que están conectados a fuentes de voltaje que tengan una terminal en el nodo de referencia. En estos nodos la fuente define la tensión del nodo. Si la fuente es independiente la tensión del nodo es conocida. En estos nodos no se aplica la LCK.</li>
+            <li>Asigne una variable para los nodos que tengan tensiones desconocidas. Si la tensión del nodo ya se conoce, no es necesario asignarle una variable. </li>
+            <li>Para cada uno de los nodos, se plantean las ecuaciones de acuerdo con las Leyes de Kirchhoff. Básicamente, sume todas las corrientes que pasan por el nodo e iguálelas a 0. Si el número de nodos es n n, el número de ecuaciones será por lo menos n - 1 n-1 porque siempre se escoge un nodo de referencia al cual no se le elabora ecuación.</li>
+            <li>Si hay fuentes de tensión entre dos tensiones desconocidas(entre dos nodos desconocidos), una esos dos nodos como un supernodo, haciendo el sumatorio de todas las corrientes que entran y salen en ese supernodo. Las tensiones de los dos nodos simples en el supernodo están relacionadas por la fuente de tensión intercalada.</li>
+          </div>
+          <img src="assets/images/Screenshot (26).png" alt="valio :v">
+          <p><small>Fuente: https://es.wikipedia.org/wiki/An%C3%A1lisis_de_nodos </small></p>
+          
+        </div>
+      </section>
+      <section class="container" id="Directa">
+        <div class="row pt-5">
+          <h1 class="pb-4">Corriente Alterna</h1>
+          <div class="col bg-info" style="text-align: center;">
+            <img src="assets/images/corriente-continua-corriente-alterna-1024x512.jpeg" alt="bye">
+          </div>
+        </div>
+        <div class="row pt-4">
+          <div class="col bg-primary">
+            La corriente alterna (c.a. ó a.c.) no puede almacenarse en baterías, pero es
+            mucho más fácil y barata de producir gracias a los alternadores. La corriente
+            alterna cambia de polaridad cíclicamente, siendo alternativamente positiva y
+            negativa respectivamente. Las características de la corriente alterna son: la frecuencia
+            (ciclos en un segundo) y la tensión de pico a pico; aunque suele utilizarse el valor
+            de tensión eficaz (tensión RMS).
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid" id="RLC">
+        <div class="row pt-5">
+          <h1 class="pb-4">Circuitos RLC</h1>
+          <div class="col bg-info">
+            En electrodinámica, un circuito RLC es un circuito lineal que contiene una resistencia eléctrica, una bobina y un capacitor.Existen dos tipos de circuitos RLC, en serie o en paralelo, según la interconexión de los tres tipos de componentes. El comportamiento de un circuito RLC se describe generalmente por una ecuación diferencial de segundo orden
+          </div>
+          
+        </div>
+        <div class="row pt-4">
+          <div class="col bg-primary">
+            <img src="assets/images/Screenshot (28).png" alt="no hay">
+            <img src="assets/images/Screenshot (29).png" alt="nel nel">
+          </div>
+          <div class="col bg-primary">
+            <p>donde: </p>
+            <li>E es la fuerza electromotriz de un generador, en Voltios (V)</li>
+            <li>uC es la tensión en los bornes de un condensador, en Voltios (V)</li>
+            <li>L es la inductancia de la bobina, en Henrios (H)</li>
+            <li>i es la intensidad de corriente eléctrica en el circuito, en Amperios (A)</li>
+            <li>q es la carga eléctrica del condensador, en Coulombs (C)</li>
+            <li>C es la capacidad eléctrica del condensador, en Faradios (F)</li>
+            <li>Rt es la resistencia total del circuito, en Ohmios (Ω)</li>
+            <li>t es el tiempo en segundos (s)</li>
+          </div>
+        </div>
+      </section>
+      <section class="container pt-4"> <!--
+        <h3>Ejemplo de imagen</h3>
+       <img src="assets/images/WhatsApp Image 2023-06-29 at 16.42.44.jpeg" alt="Se cayo prro :'v" width="46%" height="43%">-->
+      </section>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+/*.bg-primary{
+    background-color: darkblue;
+    
+}*/
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 50px;
+}
